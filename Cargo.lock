@@ -2282,6 +2282,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "tailwind"
+version = "0.1.0"
+dependencies = [
+ "actix-files",
+ "actix-web",
+ "cfg-if",
+ "console_error_panic_hook",
+ "console_log",
+ "futures 0.3.27",
+ "gloo-net",
+ "leptos",
+ "leptos_actix",
+ "leptos_meta",
+ "leptos_router",
+ "log",
+ "simple_logger",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "tempfile"
 version = "3.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2476,26 +2496,6 @@ name = "ucd-trie"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9e79c4d996edb816c91e4308506774452e55e95c3c9de07b6729e17e15a5ef81"
-
-[[package]]
-name = "uni_leptos"
-version = "0.1.0"
-dependencies = [
- "actix-files",
- "actix-web",
- "cfg-if",
- "console_error_panic_hook",
- "console_log",
- "futures 0.3.27",
- "gloo-net",
- "leptos",
- "leptos_actix",
- "leptos_meta",
- "leptos_router",
- "log",
- "simple_logger",
- "wasm-bindgen",
-]
 
 [[package]]
 name = "unicase"

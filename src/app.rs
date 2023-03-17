@@ -30,13 +30,13 @@ fn Home(cx: Scope) -> impl IntoView {
                 class="bg-amber-600 hover:bg-sky-700 px-5 py-3 text-white rounded-lg"
                 on:click=move |_| set_count.update(|count| *count += 1)
             >
-                "Something's here | "
+                "Clicker button | "
                 {move || if count() == 0 {
                     "Click me!".to_string()
                 } else {
                     count().to_string()
                 }}
-                " | Some more text"
+                " | clicks"
             </button>
         </main>
     }
